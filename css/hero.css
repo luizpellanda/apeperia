@@ -31,3 +31,22 @@
 .hero__button {
     width: 100%;
 }
+
+@media screen and (min-width: 768px) { 
+    .hero__text {
+        max-width: 600px;
+    }    
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+
+    .hero__title {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}

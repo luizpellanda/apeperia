@@ -32,3 +32,13 @@
 
     margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .differentials {
+        background-color: var(--grey-bright);
+    }
+
+    .differentials__list {
+        justify-content: space-around;
+    }
+}

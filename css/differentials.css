@@ -30,7 +30,7 @@
 }
 
 .item__title {
-    color: var(--cinza-escuro);
+    color: var(--grey-dark);
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -40,4 +40,14 @@
 
 .item__text {
     line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .differentials {
+        background-color: var(--grey-bright);
+    }
+
+    .differentials__list {
+        justify-content: space-around;
+    }
 }
