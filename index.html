@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="./css/base.css">    
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/show.css">
     <title>Home | Apeperia</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <img src="img/logo-apeperia.svg" alt="Logo da Aperia" class="header__logo">
         <nav class="header__nav">
             <ul>
@@ -29,12 +30,46 @@
     </header>
     
     <main>
-        <section class="hero">
-            <h1 class="hero__title">Aplicativos na Medida</h1>
-            <p class="hero__text">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
-            <a href="#" class="hero__button">Conheça os planos</a>
+        <section class="hero container">
+            <h2 class="hero__title">Aplicativos na Medida</h2>
+            <a href="" class="hero__text">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</a>
+            <a href="#" class="hero__button button">Conheça os planos</a>
+        </section>
+
+        <section class="show container">
+            <h2 class="show__title">Destaques</h2>
+            <a href="#">
+                <figure class="show__container">
+                    <img src="img/comecando-criar-logotipo.png" alt="Painel do post sobre criação de logotipo" class="show__container-img">
+                    <figcaption class="show__container-text">Conheça as primeiras etapas para a criação de um logotipo</figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure class="show__container">
+                    <img src="img/dicas-fotografia.png" alt="Painel do post sobre fotografia com celular" class="show__container-img">
+                    <figcaption class="show__container-text">Veja dicas de como fotografar usando seu celular</figcaption>
+                </figure>
+            </a><a href="#" class="show__button button">Receber destaques por email</a>
+        </section>
+
+        <section class="diferenciais container">
+            <ul class="diferenciais__lista">
+                <li class="diferenciais__item">
+                    <h2 class="item__titulo">Tempo</h2>
+                    <p class="item__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos prazos.</p>
+                </li>
+                <li class="diferenciais__item">
+                    <h2 class="item__titulo">Foco</h2>
+                    <p class="item__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.</p>
+                </li>
+                <li class="diferenciais__item">
+                    <h2 class="item__titulo">Especialistas</h2>
+                    <p class="item__texto">Equipe experiente e especializada! Testamos todos os produtos antes do lançamento.</p>
+                </li>
+            </ul>
         </section>
     </main>
     
+
 </body>
 </html>
