@@ -10,7 +10,7 @@
 }
 
 .contact__title {
-    color: var(--cinza-escuro);
+    color: var(--grey-dark);
     font-weight: 700;
     font-size: 1.5rem;
     font-family: var(--montserrat);
@@ -21,9 +21,9 @@
 }
 
 .contact__button {
-    color: var(--cinza-escuro);
+    color: var(--grey-dark);
 
-    border-color: var(--cinza-escuro);
+    border-color: var(--grey-dark);
 
     margin-top: 1rem;
 }
