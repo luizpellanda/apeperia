@@ -1,6 +1,7 @@
 .show {
     background-color: var(--blue-bright);
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .show__title {
